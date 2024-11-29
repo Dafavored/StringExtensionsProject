@@ -1,0 +1,30 @@
+trigger:
+  - main
+
+pool:
+  name: Self-Hosted
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '8.x'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - task: NuGetToolInstaller@1
+
+  - script: dotnet build
+    displayName: 'Build Project'
+
+  - script: dotnet pack --configuration Release -o $(Build.ArtifactStagingDirectory)
+    displayName: 'Pack NuGet Package'
+
+  - task: NuGetAuthenticate@0
+    inputs:
+      nuGetServiceConnections: 'Azure Artifacts Feed'
+
+  - task: NuGetCommand@2
+    inputs:
+      command: 'push'
+      packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+      publishVstsFeed: '<YOUR_FEED_NAME>'
