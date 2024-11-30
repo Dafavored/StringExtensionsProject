@@ -1,0 +1,17 @@
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensionsConsole
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensionsConsole.deps.json
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensionsConsole.runtimeconfig.json
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensionsConsole.dll
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensionsConsole.pdb
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensions.dll
+/Users/austino/StringExtensions/StringExtensionsConsole/bin/Debug/net8.0/StringExtensions.pdb
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.csproj.AssemblyReference.cache
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.csproj.CoreCompileInputs.cache
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.sourcelink.json
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringEx.71437596.Up2Date
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.dll
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/refint/StringExtensionsConsole.dll
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.pdb
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/StringExtensionsConsole.genruntimeconfig.cache
+/Users/austino/StringExtensions/StringExtensionsConsole/obj/Debug/net8.0/ref/StringExtensionsConsole.dll
