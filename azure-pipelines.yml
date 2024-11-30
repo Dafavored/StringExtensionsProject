@@ -1,8 +1,19 @@
+<<<<<<< HEAD
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+=======
+>>>>>>> Added CI pipeline definition
 trigger:
   - main
 
 pool:
-  name: Self-Hosted
+  name: self-hosted-agent
+  demands:
+    - agent.name -equals self-hosted-agent
+
 
 steps:
   - task: UseDotNet@2
@@ -27,4 +38,8 @@ steps:
     inputs:
       command: 'push'
       packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
-      publishVstsFeed: 'StringExtensionsFeed'
+      publishVstsFeed: '<YOUR_FEED_NAME>'
+<<<<<<< HEAD
+
+=======
+>>>>>>> Added CI pipeline definition
