@@ -1,19 +1,11 @@
-<<<<<<< HEAD
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
-=======
->>>>>>> Added CI pipeline definition
+# Corrected azure-pipelines.yml
 trigger:
   - main
 
 pool:
-  name: self-hosted-agent
+  name: Default
   demands:
     - agent.name -equals self-hosted-agent
-
 
 steps:
   - task: UseDotNet@2
@@ -38,8 +30,4 @@ steps:
     inputs:
       command: 'push'
       packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
-      publishVstsFeed: '<YOUR_FEED_NAME>'
-<<<<<<< HEAD
-
-=======
->>>>>>> Added CI pipeline definition
+      publishVstsFeed: 'StringExtensionsFeed'
