@@ -1,0 +1,12 @@
+/Users/austino/StringExtensions/bin/Release/net8.0/StringExtensions.deps.json
+/Users/austino/StringExtensions/bin/Release/net8.0/StringExtensions.dll
+/Users/austino/StringExtensions/bin/Release/net8.0/StringExtensions.pdb
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.AssemblyInfoInputs.cache
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.AssemblyInfo.cs
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.csproj.CoreCompileInputs.cache
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.sourcelink.json
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.dll
+/Users/austino/StringExtensions/obj/Release/net8.0/refint/StringExtensions.dll
+/Users/austino/StringExtensions/obj/Release/net8.0/StringExtensions.pdb
+/Users/austino/StringExtensions/obj/Release/net8.0/ref/StringExtensions.dll

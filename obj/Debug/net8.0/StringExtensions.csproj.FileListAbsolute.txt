@@ -9,3 +9,4 @@
 /Users/austino/StringExtensions/obj/Debug/net8.0/refint/StringExtensions.dll
 /Users/austino/StringExtensions/obj/Debug/net8.0/StringExtensions.pdb
 /Users/austino/StringExtensions/obj/Debug/net8.0/ref/StringExtensions.dll
+/Users/austino/StringExtensions/obj/Debug/net8.0/StringExtensions.sourcelink.json

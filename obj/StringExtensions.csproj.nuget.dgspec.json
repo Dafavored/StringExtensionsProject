@@ -8,19 +8,21 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/austino/StringExtensions/StringExtensions.csproj",
-        "projectName": "StringExtensions",
+        "projectName": "StringExtensionsLibrayPackage",
         "projectPath": "/Users/austino/StringExtensions/StringExtensions.csproj",
         "packagesPath": "/Users/austino/.nuget/packages/",
         "outputPath": "/Users/austino/StringExtensions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "/Users/austino/StringExtensions/NuGet.Config",
           "/Users/austino/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/oajakai1/StringExtensionsAzure/_packaging/StringExtensionsFeed/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
