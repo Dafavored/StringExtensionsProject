@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # Updated azure-pipelines.yml
 
+=======
+# Corrected azure-pipelines.yml
+>>>>>>> e76cafd5b691e3e46bc8d1393b5c875a4021dcb0
 trigger:
   - main
 

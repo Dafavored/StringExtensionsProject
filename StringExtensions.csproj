@@ -5,11 +5,16 @@
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+<<<<<<< HEAD
     <PackageId>StringExtensionsLibrayPackage</PackageId>
   <Version>1.0.0</Version>
   <Authors>Ajakaiye</Authors>
   <Company>CentennialCollege</Company>
   <Description>A C# Library Package to check if a string starts with an uppercase letter</Description>
+=======
+   <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>  
+>>>>>>> e76cafd5b691e3e46bc8d1393b5c875a4021dcb0
   </PropertyGroup>
 
 <PropertyGroup>
