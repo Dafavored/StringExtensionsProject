@@ -1,4 +1,5 @@
-# Corrected azure-pipelines.yml
+# Updated azure-pipelines.yml
+
 trigger:
   - main
 
@@ -8,33 +9,43 @@ pool:
     - agent.name -equals self-hosted-agent
 
 steps:
+  # Install .NET SDK 8.x
   - task: UseDotNet@2
     inputs:
       packageType: 'sdk'
       version: '8.x'
       installationPath: $(Agent.ToolsDirectory)/dotnet
 
+  # Install NuGet Tool
   - task: NuGetToolInstaller@1
 
+  # Install Mono on macOS (added for self-hosted agent environment)
+  - script: |
+      if ! command -v mono &> /dev/null
+      then
+        echo "Mono not found, installing..."
+        brew install mono
+      else
+        echo "Mono is already installed"
+      fi
+    displayName: 'Install Mono (macOS)'
+
+  # Build the project
   - script: dotnet build
     displayName: 'Build Project'
 
+  # Pack NuGet package
   - script: dotnet pack --configuration Release -o $(Build.ArtifactStagingDirectory)
     displayName: 'Pack NuGet Package'
 
+  # Authenticate with NuGet feed
   - task: NuGetAuthenticate@0
     inputs:
       nuGetServiceConnections: 'AzureNugetArtifactFeed'
 
+  # Push the NuGet package to the feed
   - task: NuGetCommand@2
     inputs:
       command: 'push'
       packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
       publishVstsFeed: 'StringExtensionsFeed'
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> Added CI pipeline definition
-=======
->>>>>>> Resolved merge conflicts in azure-pipelines.yml
